@@ -2,8 +2,8 @@ package com.example.consumertracker.service;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-import com.example.consumertracker.DTO.Course;
 import com.example.consumertracker.constant.AppConstant;
+import com.example.producertracker.DTO.Course;
 
 @Service
 public class ProducerCourseService {	

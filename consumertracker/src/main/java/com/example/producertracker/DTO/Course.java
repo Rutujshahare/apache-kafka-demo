@@ -1,4 +1,4 @@
-package com.example.consumertracker.DTO;
+package com.example.producertracker.DTO;
 
 public class Course {
 public String id;

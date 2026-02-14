@@ -11,7 +11,7 @@ import com.example.producertracker.constant.AppConstant;
 public class ProducerCourseService {
 
 	@Autowired
-	private KafkaTemplate<String, Object> kafkaTemplate; 
+	private KafkaTemplate<String,Course> kafkaTemplate; 
 	
 	public String updateCourse(Course course) {
 		kafkaTemplate.send(AppConstant.TOPIC_NAME_STRING,course);
